@@ -8,6 +8,8 @@ This is a minimum template project for reporting issue for [react-styleguidist](
 
 - https://codesandbox.io/s/github/mitsuruog/react-styleguidist-issue-template-typescript
 
-2. Fork it and write your code there.
+2. Fork it
 
 ![](./images/fork.png)
+
+3. Write your code and then share the sandbox URL.
