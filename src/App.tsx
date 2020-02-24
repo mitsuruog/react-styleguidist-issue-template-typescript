@@ -10,7 +10,10 @@ export const App: React.FC<{}> = () => {
   const [count, setCount] = React.useState(0);
   return (
     <div className={rootStyle}>
-      <h1></h1>
+      <h1>
+        This is a minimum template project for reporting issue for
+        react-styleguidist.
+      </h1>
       <Button color="primary" onClick={() => setCount(count + 1)}>
         Click me
       </Button>
