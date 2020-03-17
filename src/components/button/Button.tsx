@@ -26,7 +26,7 @@ export interface ButtonProps {
   children: React.ReactNode;
 }
 
-export const Button: React.FC<ButtonProps> = props => {
+export const Button = (props: ButtonProps) => {
   const { color, size, disable, onClick, children } = props;
   const rootStyle = classnames("example-button", {
     [`is-${size}`]: Boolean(size),
